@@ -1,29 +1,62 @@
+/*
+  COLORS
+  gray: #303030
+  darkblue: #000066
+  blue: #0033ff
+  brightblue: #0099ff
+  orange: #ff9600
+  white: #ffffff
+*/
+
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 48px;
   font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h2.blue {
+  color: #0033ff;
+}
+
+h2.brightblue {
+  color: #0099ff;
 }
 
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 24px;
   font-weight: 300;
+  text-transform: uppercase;
+  color: #0033ff;
 }
 
 h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
   font-weight: 300;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 body {
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
   font-weight: 400;
+  color: #303030;
 }
