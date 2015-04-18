@@ -60,3 +60,34 @@ body {
   font-weight: 400;
   color: #303030;
 }
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #303030;
+  letter-spacing: 2px;
+}
+
+#menu-item-20 {
+  text-indent: -9999px;
+  background: url(../img/skynet-icon.png) no-repeat center center;
+  width: 91px;
+  height: 92px;
+}
