@@ -117,6 +117,9 @@ function html5blank_styles()
   
     wp_register_style('fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', array(), '1.0', 'all');
     wp_enqueue_style('fontawesome'); // Enqueue it!
+  
+    wp_register_style('layout', get_template_directory_uri() . '/css/layout.css', array(), '1.0', 'all');
+    wp_enqueue_style('layout'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
