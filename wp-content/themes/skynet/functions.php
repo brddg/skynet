@@ -94,6 +94,9 @@ function html5blank_header_scripts()
 
         wp_register_script('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('bootstrap'); // Enqueue it!
+      
+        wp_register_script('svgs', get_template_directory_uri() . '/js/grunticon.loader.js', array('jquery'), '1.0.0'); // Custom scripts
+        wp_enqueue_script('svgs'); // Enqueue it!
     }
 }
 
