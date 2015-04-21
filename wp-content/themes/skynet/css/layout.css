@@ -24,8 +24,8 @@ h2 {
   color: #ffffff;
 }
 
-h2.blue {
-  color: #0033ff;
+h2.darkblue {
+  color: #000066;
 }
 
 h2.brightblue {
@@ -117,4 +117,21 @@ nav ul li a {
   margin: 0;
   text-align: center;
   padding: 200px;
+}
+
+.image-block {
+  display: table;
+  width: 100%;
+  height: 200px;
+  background: #000066;
+}
+
+.image-block:hover {
+  text-decoration: none;
+}
+
+.image-block h2 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
