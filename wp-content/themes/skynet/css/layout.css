@@ -62,12 +62,14 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 20px 20px 0;
   text-align: center;
+  height: 100px;
 }
 
 nav ul {
   margin: 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -83,11 +85,16 @@ nav ul li a {
   text-transform: uppercase;
   color: #303030;
   letter-spacing: 2px;
+  padding: 20px;
+  display: inline-block;
 }
 
 #menu-item-20 {
   text-indent: -9999px;
-  background: url(../img/skynet-icon.png) no-repeat center center;
-  width: 91px;
-  height: 92px;
+  background: #fff url(../img/skynet-icon.png) no-repeat center center;
+  width: 111px;
+  height: 112px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
 }
