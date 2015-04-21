@@ -63,11 +63,11 @@ if (function_exists('add_theme_support'))
 \*------------------------------------*/
 
 // HTML5 Blank navigation
-function html5blank_nav()
+function html5blank_nav($menu)
 {
 	wp_nav_menu(
 	array(
-		'theme_location'  => 'header-menu',
+		'theme_location'  => $menu,
 		'menu'            => '',
 		'container'       => 'div',
 		'container_class' => 'menu-{menu slug}-container',
@@ -127,8 +127,7 @@ function register_html5_menu()
 {
     register_nav_menus(array( // Using array to specify more menus if needed
         'header-menu' => __('Header Menu', 'html5blank'), // Main Navigation
-        'sidebar-menu' => __('Sidebar Menu', 'html5blank'), // Sidebar Navigation
-        'extra-menu' => __('Extra Menu', 'html5blank') // Extra Navigation if needed (duplicate as many as you need!)
+        'footer-menu' => __('Footer Menu', 'html5blank'), // Sidebar Navigation
     ));
 }
 

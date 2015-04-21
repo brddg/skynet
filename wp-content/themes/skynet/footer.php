@@ -1,30 +1,31 @@
-			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+      <!-- footer -->
+      <footer class="footer" role="contentinfo">
 
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
+        <div id="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+        <?php html5blank_nav('footer-menu'); ?>
+        <p class="small smaller">&copy; <?php echo date('Y'); ?> Skynet Integrations - All rights reserved</p>
+      </footer>
+      <!-- /footer -->
 
-			</footer>
-			<!-- /footer -->
+    </div>
+    <!-- /wrapper -->
 
-		</div>
-		<!-- /wrapper -->
+    <?php wp_footer(); ?>
 
-		<?php wp_footer(); ?>
+    <!-- analytics -->
+    <script>
+    (function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
+    (f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
+    l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
+    ga('send', 'pageview');
+    </script>
 
-		<!-- analytics -->
-		<script>
-		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
-		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
-		l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
-		ga('send', 'pageview');
-		</script>
-
-	</body>
+  </body>
 </html>
