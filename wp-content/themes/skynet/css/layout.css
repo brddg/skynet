@@ -98,3 +98,23 @@ nav ul li a {
   -moz-border-radius: 60px;
   border-radius: 60px;
 }
+
+.hero {
+  height: 450px;
+  background-size: cover;
+}
+
+.home .hero {
+  height: 650px;
+}
+
+.hero .table {
+  display: table;
+  height: 650px;
+}
+
+.hero h1 {
+  margin: 0;
+  text-align: center;
+  padding: 200px;
+}
