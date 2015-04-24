@@ -16,10 +16,12 @@ if (empty($home_hero_text)) {
 ?>
 
 <div id="home-hero" class="hero" style="background-image: url('<?php echo $home_hero_images[0]['home_hero_image']; ?>');">
-  <div class="container">
-    <h1><?php echo $home_hero_text; ?></h1>
-    <a href="/contact-us/" class="cta-btn">Get Started Today</a>
-    <a href="#" id="scroll-me" class="icon-arrow"></a>
+  <div class="table">
+    <div class="container">
+      <h1><?php echo $home_hero_text; ?></h1>
+      <a href="/contact-us/" class="cta-btn">Get Started Today</a>
+      <a href="#" id="scroll-me" class="icon-arrow"></a>
+    </div>
   </div>
   <div id="social-buttons" class="hidden-xs">
     <a href="#" id="facebook" class="icon-fb">Facebook</a>
