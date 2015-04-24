@@ -62,6 +62,7 @@ h5 {
   color: #303030;
   letter-spacing: 3px;
   line-height: 22px;
+  text-transform: uppercase;
 }
   
 body, p {
@@ -344,4 +345,41 @@ body.page-template-support article, body.page-template-contact article {
 
 #contact-form textarea {
   height: 150px;
+}
+
+#posts-list article {
+  margin-bottom: 20px;
+}
+
+#posts-list img {
+  width: 100%;
+}
+
+#posts-list h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+#posts-list h3 a {
+  color: #000066;
+}
+
+#posts-list h5 {
+  margin: 0;
+}
+
+#posts-list .view-article {
+  color: #000066;
+}
+
+.pagination {
+  text-align: center;
+  display:block;
+}
+.pager .next>a, .pager .next>span, .pager .previous>a, .pager .previous>span {
+  float: none;
+}
+.pager li>a, .pager li>span {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
