@@ -18,6 +18,7 @@ if (empty($home_hero_text)) {
 <div id="home-hero" class="hero" style="background-image: url('<?php echo $home_hero_images[0]['home_hero_image']; ?>');">
   <div class="container">
     <h1><?php echo $home_hero_text; ?></h1>
+    <a href="#" class="cta-btn">Get Started Today</a>
   </div>
 </div>
 

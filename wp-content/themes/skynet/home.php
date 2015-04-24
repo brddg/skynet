@@ -15,13 +15,13 @@
         
           <div class="container">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 center-content-block">
+              <div class="col-md-7 col-centered">
                 <p><?php the_field('home_first_block_content'); ?></p>
               </div>
             </div>
           </div>
         
-          <div class="container">
+          <div class="container image-container">
             <div class="row">
               <div class="col-sm-4">
                 <a class="image-block" href="<?php the_field("home_image_1_link"); ?>" style="background: url('<?php the_field("home_image_1"); ?>')">
@@ -43,7 +43,7 @@
 
           <div class="container">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 center-content-block">
+              <div class="col-md-7 col-centered">
                 <h2 class="darkblue"><?php the_field('home_second_block_title'); ?></h2>
                 <p><?php the_field('home_second_block_content'); ?></p>
               </div>

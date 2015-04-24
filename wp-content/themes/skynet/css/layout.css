@@ -28,6 +28,7 @@ h2 {
 
 h2.darkblue {
   color: #000066;
+  text-align: center;
 }
 
 h2.brightblue {
@@ -72,7 +73,7 @@ p.small {
   line-height: 21px;
 }
 
-.btn {
+.cta-btn {
   padding: 7px 40px 11px 40px;
   font-family: "Oswald";
   font-size: 16px;
@@ -80,10 +81,29 @@ p.small {
   letter-spacing: 3px;
   line-height: 24px;
   background: #0099FF;
+  text-transform: uppercase;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  display: inline-block;
 }
   
-.btn:hover{ 
+.cta-btn:hover{ 
   background: #0082D9;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.image-container {
+  padding: 50px 0;
+  margin: 50px auto;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
 }
 
 header {
@@ -127,6 +147,8 @@ nav ul li a {
 .hero {
   height: 450px;
   background-size: cover;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .home .hero {
@@ -141,7 +163,11 @@ nav ul li a {
 .hero h1 {
   margin: 0;
   text-align: center;
-  padding: 200px;
+  padding-top:200px;
+}
+
+.hero .cta-btn {
+  margin-top: 20px;
 }
 
 .image-block {
