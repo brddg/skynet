@@ -304,3 +304,29 @@ footer ul li a {
 .modal-header {
   border: 0;
 }
+
+body.page-template-support article {
+  margin-top: 80px;
+}
+
+.file-container {
+  margin-top: 50px;
+}
+
+.file-block {
+  display: table;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.file-block:hover{
+  text-decoration: none;
+  opacity: .8;
+}
+
+.file-block h2 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
