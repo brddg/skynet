@@ -21,7 +21,7 @@ if (empty($home_hero_text)) {
     <a href="/contact-us/" class="cta-btn">Get Started Today</a>
     <a href="#" id="scroll-me" class="icon-arrow"></a>
   </div>
-  <div id="social-buttons">
+  <div id="social-buttons" class="hidden-xs">
     <a href="#" id="facebook" class="icon-fb">Facebook</a>
     <a href="#" id="twitter" class="icon-twitter">Twitter</a>
     <a href="#" id="linkedin" class="icon-linkdin">LinkedIn</a>

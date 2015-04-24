@@ -11,6 +11,18 @@
 
       <!-- article -->
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-centered">
+                <div id="social-buttons" class="visible-xs">
+                  <a href="#" id="facebook" class="icon-fb">Facebook</a>
+                  <a href="#" id="twitter" class="icon-twitter">Twitter</a>
+                  <a href="#" id="linkedin" class="icon-linkdin">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
         
           <div class="container">
@@ -22,19 +34,19 @@
           </div>
         
           <div class="container image-container">
-            <div class="row">
+            <div class="row" style="width:100%;margin-left:0;">
               <div class="col-sm-4">
-                <a class="image-block" href="<?php the_field("home_image_1_link"); ?>" style="background: url('<?php the_field("home_image_1"); ?>')">
+                <a class="image-block" href="<?php the_field("home_image_1_link"); ?>" style="background-image: url('<?php the_field("home_image_1"); ?>')">
                   <h2><?php the_field('home_image_1_text'); ?></h2>
                 </a>
               </div>
               <div class="col-sm-4">
-                <a class="image-block" href="<?php the_field("home_image_2_link"); ?>" style="background: url('<?php the_field("home_image_2"); ?>')">
+                <a class="image-block" href="<?php the_field("home_image_2_link"); ?>" style="background-image: url('<?php the_field("home_image_2"); ?>')">
                   <h2><?php the_field('home_image_2_text'); ?></h2>
                 </a>
               </div>
               <div class="col-sm-4">
-                <a class="image-block" href="<?php the_field("home_image_3_link"); ?>" style="background: url('<?php the_field("home_image_3"); ?>')">
+                <a class="image-block" href="<?php the_field("home_image_3_link"); ?>" style="background-image: url('<?php the_field("home_image_3"); ?>')">
                   <h2><?php the_field('home_image_3_text'); ?></h2>
                 </a>
               </div>
