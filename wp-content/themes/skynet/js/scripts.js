@@ -4,7 +4,12 @@
 		
 		'use strict';
 		
-		// DOM ready, take it away
+		$('#scroll-me').on('click', function(e){
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: $("article").offset().top
+      }, 500);
+    });
 		
 	});
 	

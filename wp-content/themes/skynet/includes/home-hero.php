@@ -19,6 +19,7 @@ if (empty($home_hero_text)) {
   <div class="container">
     <h1><?php echo $home_hero_text; ?></h1>
     <a href="#" class="cta-btn">Get Started Today</a>
+    <a href="#" id="scroll-me" class="icon-arrow"></a>
   </div>
   <div id="social-buttons">
     <a href="#" id="facebook" class="icon-fb">Facebook</a>
