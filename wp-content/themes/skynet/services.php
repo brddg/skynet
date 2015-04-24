@@ -65,7 +65,7 @@ function toAscii($str, $replace=array(), $delimiter='-') {
                         <div class="services-icon <?php the_sub_field('icon_class'); ?>"></div>
                         <h2 class="brightblue"><?php the_sub_field('title'); ?></h2>
                         <p><?php the_sub_field('expanded_content'); ?></p>
-                        <a href="#" class="cta-btn">Get Started Today</a>
+                        <a href="/contact-us/" class="cta-btn">Get Started Today</a>
                       </div>
                     </div>
                   </div>
