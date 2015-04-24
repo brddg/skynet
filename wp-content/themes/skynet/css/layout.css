@@ -146,6 +146,25 @@ nav ul li a {
   z-index: 2;
 }
 
+#menu-item-19 {
+  position: relative;
+}
+
+ul.sub-menu {
+  position: absolute;
+  z-index: 50;
+  background: #ffffff;
+  display: none;
+}
+
+ul.sub-menu.active {
+  display: block;
+}
+
+ul.sub-menu li a {
+  padding: 5px 20px;
+}
+
 .hero {
   height: 450px;
   background-size: cover;
