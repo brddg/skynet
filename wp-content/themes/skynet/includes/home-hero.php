@@ -20,6 +20,11 @@ if (empty($home_hero_text)) {
     <h1><?php echo $home_hero_text; ?></h1>
     <a href="#" class="cta-btn">Get Started Today</a>
   </div>
+  <div id="social-buttons">
+    <a href="#" id="facebook" class="icon-fb">Facebook</a>
+    <a href="#" id="twitter" class="icon-twitter">Twitter</a>
+    <a href="#" id="linkedin" class="icon-linkdin">LinkedIn</a>
+  </div>
 </div>
 
 <script type="text/javascript">
