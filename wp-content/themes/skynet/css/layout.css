@@ -186,6 +186,7 @@ ul.sub-menu {
   z-index: 50;
   background: #ffffff;
   display: none;
+  margin-top: -12px;
 }
 
 ul.sub-menu.active {

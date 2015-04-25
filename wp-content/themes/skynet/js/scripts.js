@@ -10,16 +10,12 @@
         scrollTop: $("article").offset().top
       }, 500);
     });
-    
-    $('#menu-item-19').on('click', function(e){
-      e.preventDefault();
-      var $menu = $(this).find('ul.sub-menu');
-      $menu.toggleClass('active');
-    });
-    
-    $('#menu-item-19 ul.sub-menu a').on('click', function(){
-      window.location = $(this).attr('href');
-    });
+        
+    $('#menu-item-19').hover(function(){
+      $(this).find('ul.sub-menu').addClass('active');
+    }, function(){
+      $(this).find('ul.sub-menu').removeClass('active');
+    })
     
     $('.close-and-open-contact').on('click', function(e){
       e.preventDefault();
