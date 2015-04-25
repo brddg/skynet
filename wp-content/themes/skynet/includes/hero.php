@@ -5,6 +5,7 @@ if (empty($hero_image)) {
 }
 $hero_text = get_field('hero_text');
 if (is_home() || is_single()){
+  $hero_image = get_template_directory_uri() . "/img/BlogHeader.jpg";
   $hero_text = "Blog";
 }
 elseif (empty($hero_text)) {
