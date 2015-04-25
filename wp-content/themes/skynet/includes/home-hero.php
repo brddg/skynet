@@ -19,7 +19,7 @@ if (empty($home_hero_text)) {
   <div class="table">
     <div class="container">
       <h1><?php echo $home_hero_text; ?></h1>
-      <a href="/contact-us/" class="cta-btn">Get Started Today</a>
+      <a href="#" class="cta-btn" data-toggle="modal" data-target="#contact-modal">Get Started Today</a>
       <a href="#" id="scroll-me" class="icon-arrow"></a>
     </div>
   </div>

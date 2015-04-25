@@ -65,7 +65,7 @@ function toAscii($str, $replace=array(), $delimiter='-') {
                         <div class="services-icon <?php the_sub_field('icon_class'); ?>"></div>
                         <h2 class="brightblue"><?php the_sub_field('title'); ?></h2>
                         <p><?php the_sub_field('expanded_content'); ?></p>
-                        <a href="/contact-us/" class="cta-btn">Get Started Today</a>
+                        <a href="#" class="cta-btn close-and-open-contact">Get Started Today</a>
                       </div>
                     </div>
                   </div>
@@ -82,8 +82,8 @@ function toAscii($str, $replace=array(), $delimiter='-') {
           <div class="row">
             <div class="col-md-7 col-centered services-bottom">
               <h3><?php the_field('second_block_title'); ?></h3>
-              <a href="<?php the_field('second_block_button_link'); ?>" class="cta-btn">
-                <?php the_field('second_block_button_text'); ?>
+              <a href="#" class="cta-btn" data-toggle="modal" data-target="#contact-modal">
+                Get Started Today
               </a>
             </div>
           </div>

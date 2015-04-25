@@ -19,7 +19,15 @@
     
     $('#menu-item-19 ul.sub-menu a').on('click', function(){
       window.location = $(this).attr('href');
-    })
+    });
+    
+    $('.close-and-open-contact').on('click', function(e){
+      e.preventDefault();
+      var $currentModal = $('.modal.in');
+      $currentModal.modal('hide');
+      var $contactModal = $('#contact-modal');
+      $contactModal.modal('show');
+    });   
 		
 	});
 	
