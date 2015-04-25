@@ -3,6 +3,17 @@
 	$(function () {
 		
 		'use strict';
+    function getUrlVars(thing) {
+      var vars = {};
+      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+      });
+      return vars[thing];
+    }
+
+    if(getUrlVars('thanks') == 'true') {
+      $('#thanks').show();
+    }
 		
 		$('#scroll-me').on('click', function(e){
       e.preventDefault();

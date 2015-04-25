@@ -154,7 +154,7 @@ nav ul li a {
 @media (max-width: 767px) {
   nav ul li a {
     font-size: 13px;
-    padding: 10px;
+    padding: 5px;
   }
 }
 
@@ -187,6 +187,13 @@ ul.sub-menu {
   background: #ffffff;
   display: none;
   margin-top: -12px;
+}
+
+@media (max-width: 767px){
+  ul.sub-menu {
+    margin-top: 3px;
+    margin-left:-15px
+  }
 }
 
 ul.sub-menu.active {
@@ -485,4 +492,8 @@ body.page-template-support article, body.page-template-contact article {
   -moz-border-radius: 20px;
   border-radius: 20px;
   margin: 0 5px;
+}
+
+#thanks {
+  display: none;
 }
