@@ -15,6 +15,10 @@ elseif (empty($hero_text)) {
 
 <div class="hero" style="background-image: url('<?php echo $hero_image; ?>')">
   <div class="container">
-    <h1><?php echo $hero_text; ?></h1>
+    <?php if (is_single()): ?>
+      <h1><a href="/blog/"><?php echo $hero_text; ?></a></h1>
+    <?php else: ?>
+      <h1><?php echo $hero_text; ?></h1>
+    <?php endif; ?>
   </div>
 </div>

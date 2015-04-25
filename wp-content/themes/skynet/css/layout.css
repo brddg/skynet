@@ -239,6 +239,14 @@ ul.sub-menu li a {
   text-align: center;
 }
 
+.hero h1 a {
+  color: #ffffff;
+}
+
+.hero h1 a:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 767px) {
   .hero h1 {
     font-size: 32px;
@@ -497,3 +505,4 @@ body.page-template-support article, body.page-template-contact article {
 #thanks {
   display: none;
 }
+
