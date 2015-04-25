@@ -26,7 +26,15 @@
       $(this).find('ul.sub-menu').addClass('active');
     }, function(){
       $(this).find('ul.sub-menu').removeClass('active');
-    })
+    });
+    
+    $('#menu-item-19').on('click', function(e){
+      e.preventDefault();
+    });
+    
+    $('#menu-item-19 ul.sub-menu a').on('click', function(e){
+      window.location = $(this).attr('href');
+    });
     
     $('.close-and-open-contact').on('click', function(e){
       e.preventDefault();
