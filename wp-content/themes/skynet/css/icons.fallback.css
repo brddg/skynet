@@ -1,95 +1,115 @@
 
+.icon-advanced-solutions {
+	background-image: url('png/advanced-solutions.png');
+	background-repeat: no-repeat;
+}
+
 .icon-apps {
-	background-image: url('../img/icons/apps.png');
+	background-image: url('png/apps.png');
 	background-repeat: no-repeat;
 }
 
 .icon-arrow {
-	background-image: url('../img/icons/arrow.png');
+	background-image: url('png/arrow.png');
 	background-repeat: no-repeat;
 }
 
 .icon-automate {
-	background-image: url('../img/icons/automate.png');
+	background-image: url('png/automate.png');
+	background-repeat: no-repeat;
+}
+
+.icon-browser {
+	background-image: url('png/browser.png');
 	background-repeat: no-repeat;
 }
 
 .icon-close {
-	background-image: url('../img/icons/close.png');
+	background-image: url('png/close.png');
+	background-repeat: no-repeat;
+}
+
+.icon-contract-options {
+	background-image: url('png/contract-options.png');
 	background-repeat: no-repeat;
 }
 
 .icon-control-monitor {
-	background-image: url('../img/icons/control-monitor.png');
+	background-image: url('png/control-monitor.png');
 	background-repeat: no-repeat;
 }
 
 .icon-expand-more {
-	background-image: url('../img/icons/expand-more.png');
-	background-repeat: no-repeat;
-}
-
-.icon-expandable {
-	background-image: url('../img/icons/expandable.png');
+	background-image: url('png/expand-more.png');
 	background-repeat: no-repeat;
 }
 
 .icon-fb {
-	background-image: url('../img/icons/fb.png');
+	background-image: url('png/fb.png');
 	background-repeat: no-repeat;
 }
 
 .icon-hosted {
-	background-image: url('../img/icons/hosted.png');
+	background-image: url('png/hosted.png');
 	background-repeat: no-repeat;
 }
 
 .icon-linkdin {
-	background-image: url('../img/icons/linkdin.png');
+	background-image: url('png/linkdin.png');
 	background-repeat: no-repeat;
 }
 
 .icon-low-cost {
-	background-image: url('../img/icons/low-cost.png');
+	background-image: url('png/low-cost.png');
 	background-repeat: no-repeat;
 }
 
 .icon-mobile-apps {
-	background-image: url('../img/icons/mobile-apps.png');
+	background-image: url('png/mobile-apps.png');
 	background-repeat: no-repeat;
 }
 
 .icon-no-phone-lines {
-	background-image: url('../img/icons/no-phone-lines.png');
+	background-image: url('png/no-phone-lines.png');
 	background-repeat: no-repeat;
 }
 
 .icon-post-gplus {
-	background-image: url('../img/icons/post-gplus.png');
+	background-image: url('png/post-gplus.png');
+	background-repeat: no-repeat;
+}
+
+.icon-product-features {
+	background-image: url('png/product-features.png');
 	background-repeat: no-repeat;
 }
 
 .icon-search 2 {
-	background-image: url('../img/icons/search 2.png');
+	background-image: url('png/search 2.png');
 	background-repeat: no-repeat;
 }
 
 .icon-search {
-	background-image: url('../img/icons/search.png');
+	background-image: url('png/search.png');
 	background-repeat: no-repeat;
 }
 
 .icon-touch-screen {
-	background-image: url('../img/icons/touch-screen.png');
+	background-image: url('png/touch-screen.png');
+	background-repeat: no-repeat;
+}
+
+.icon-traditional {
+	background-image: url('png/traditional.png');
 	background-repeat: no-repeat;
 }
 
 .icon-twitter {
-	background-image: url('../img/icons/twitter.png');
+	background-image: url('png/twitter.png');
 	background-repeat: no-repeat;
 }
 
 .icon-videocam {
-	background-image: url('../img/icons/videocam.png');
+	background-image: url('png/videocam.png');
 	background-repeat: no-repeat;
 }
