@@ -15,7 +15,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 col-centered">
-              <h2 class="darkblue"><?php the_field('heading'); ?></h2>
+              <h2 class="darkblue"><?php the_field('header'); ?></h2>
             </div>
           </div>
         </div>     
