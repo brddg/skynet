@@ -40,8 +40,11 @@
       e.preventDefault();
       var $currentModal = $('.modal.in');
       $currentModal.modal('hide');
-      var $contactModal = $('#contact-modal');
-      $contactModal.modal('show');
+      setTimeout(function(){
+        var $contactModal = $('#contact-modal');
+        $contactModal.modal('show');        
+      }, 500);
+
     });   
 		
 	});
