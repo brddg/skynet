@@ -8,6 +8,11 @@
   white: #ffffff
 */
 
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+a:focus, a:active { border:0; outline: none; }
+
 h1 {
   font-family: "Oswald";
   font-size: 42px;
