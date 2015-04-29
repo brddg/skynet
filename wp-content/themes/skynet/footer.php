@@ -2,10 +2,10 @@
       <footer class="footer" role="contentinfo">
 
         <div id="social">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-google-plus"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a target="_blank" href="https://www.facebook.com/pages/Skynet-Security-Integrations/238875869615953"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://twitter.com/SkynetSI"><i class="fa fa-twitter"></i></a>
+          <a target="_blank" href="https://plus.google.com/u/0/116728960098376438387/about"><i class="fa fa-google-plus"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/company/9323215"><i class="fa fa-linkedin"></i></a>
         </div>
        <ul>
          <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35">

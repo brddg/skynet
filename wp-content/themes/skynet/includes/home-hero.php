@@ -24,9 +24,9 @@ if (empty($home_hero_text)) {
     </div>
   </div>
   <div id="social-buttons" class="hidden-xs">
-    <a href="#" id="facebook" class="icon-fb">Facebook</a>
-    <a href="#" id="twitter" class="icon-twitter">Twitter</a>
-    <a href="#" id="linkedin" class="icon-linkdin">LinkedIn</a>
+    <a target="_blank" href="https://www.facebook.com/pages/Skynet-Security-Integrations/238875869615953" id="facebook" class="icon-fb">Facebook</a>
+    <a target="_blank" href="https://twitter.com/SkynetSI" id="twitter" class="icon-twitter">Twitter</a>
+    <a target="_blank" href="https://www.linkedin.com/company/9323215" id="linkedin" class="icon-linkdin">LinkedIn</a>
   </div>
 </div>
 
