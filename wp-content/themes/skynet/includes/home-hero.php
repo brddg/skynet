@@ -23,6 +23,9 @@ if (empty($home_hero_text)) {
       <a href="#" id="scroll-me" class="icon-arrow"></a>
     </div>
   </div>
+  <a href="https://portal.cloudvisionsecurity.com/webgui/#login" id="cloud-login" class="hidden-xs">
+    Cloud Vision Portal Login
+  </a>
   <div id="social-buttons" class="hidden-xs">
     <a target="_blank" href="https://www.facebook.com/pages/Skynet-Security-Integrations/238875869615953" id="facebook" class="icon-fb">Facebook</a>
     <a target="_blank" href="https://twitter.com/SkynetSI" id="twitter" class="icon-twitter">Twitter</a>

@@ -207,6 +207,7 @@ ul.sub-menu.active {
 
 ul.sub-menu li a {
   padding: 5px 20px;
+  line-height: 1;
 }
 
 .hero {
@@ -277,6 +278,18 @@ ul.sub-menu li a {
   position: absolute;
   right: 20px;
   top: 20px;
+}
+
+#cloud-login {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-indent: -9999px;
+  background: transparent url(../img/cv-login.png) no-repeat left top;
+  height: 100px;
+  width: 100px;
+  background-size: 100px;
 }
 
 @media (max-width: 767px) {
