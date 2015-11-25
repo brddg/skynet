@@ -4,14 +4,14 @@
         <div id="social">
           <a target="_blank" href="https://www.facebook.com/pages/Skynet-Security-Integrations/238875869615953"><i class="fa fa-facebook"></i></a>
           <a target="_blank" href="https://twitter.com/SkynetSI"><i class="fa fa-twitter"></i></a>
-          <a target="_blank" href="https://plus.google.com/u/0/116728960098376438387/about"><i class="fa fa-google-plus"></i></a>
+          <a target="_blank" href="https://google.com/+SkynetSecurityIntegrationNewPortRichey"><i class="fa fa-google-plus"></i></a>
           <a target="_blank" href="https://www.linkedin.com/company/9323215"><i class="fa fa-linkedin"></i></a>
         </div>
-       <ul>
-         <li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35">
-           <a href="#" data-toggle="modal" data-target="#contact-modal">Contact Us</a>
-         </li>
-        </ul>
+
+
+         <?php html5blank_nav('footer-menu'); ?>
+
+
         <p class="small smaller">&copy; <?php echo date('Y'); ?> Skynet Integrations - All rights reserved</p>
       </footer>
       <!-- /footer -->
@@ -28,10 +28,10 @@
           <div class="modal-body">
             <div class="container-fluid">
               <h2 class="darkblue">Kickstart Your Security Now</h2>
-              <p>Skynet Security Integrations is eager to answer any of your questions about our catalog of security systems. Please call our offices direct at (813) 618-5888 to speak with one of our customer service professionals about your needs. Our regular business hours: 9:00am to 5:00pm Monday through Friday, but you are also able to leave a voicemail after hours for a prompt next business day return call.</p>
-              <p>For after-hours emergency service requests, please call (813) 618-5888 and follow the voice prompts to get through to our on call technician for after- hours emergency service.</p>
+              <p>Skynet Security Integrations is eager to answer any of your questions about our catalog of security systems. Please call our offices direct at <strong>(813) 618-5888</strong> to speak with one of our customer service professionals about your needs. Our regular business hours: 9:00am to 5:00pm Monday through Friday, but you are also able to leave a voicemail after hours for a prompt next business day return call.</p>
+              <p>For after-hours emergency service requests, please call <strong>(813) 618-5888</strong> and follow the voice prompts to get through to our on call technician for after- hours emergency service.</p>
               <p>For general inquiries, please fill out the form below and one of our customer service professionals will follow up with you.</p>
-            
+
               <div id="contact-form">
                   <form class="form-horizontal" method="post" action="<?php echo get_template_directory_uri(); ?>/process.php">
                     <div class="row">
@@ -41,15 +41,23 @@
                     </div>
                     <div class="row">
                       <div class="col-md-6">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Name*" required>
-                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone number*" required>
+                        <div>
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Name*" required>
+                        </div>
+                        <div>
+                          <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone number*" required>
+                        </div>
                       </div>
                       <div class="col-md-6">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
-                        <input type="text" class="form-control" name="zip" id="zip" placeholder="Zip code*" required>
+                        <div>
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
+                        </div>
+                        <div>
+                          <input type="text" class="form-control" name="zip" id="zip" placeholder="Zip code*" required>
+                        </div>
                       </div>
                     </div>
-                    
+
                     <div class="row">
                       <div class="col-md-12">
                         <h5>What services are you interested in</h5>
@@ -75,19 +83,32 @@
                             Access Control
                           </label>
                         </div>
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" name="data-comm" value="true">
+                            Data Communications
+                          </label>
+                        </div>
                       </div>
                     </div>
-                    
+
                     <div class="row">
                       <div class="col-md-12">
                         <textarea name="message" id="message" class="form-control" placeholder="Please provide us with any additional information about your interest."></textarea>
                       </div>
                     </div>
-                    
+
+                    <div class="row">
+                      <div class="col-md-12" style="padding-bottom: 20px;">
+                        <div id="recaptcha-help-text" style="display:none;color:red;">Please check the box</div>
+                        <div class="g-recaptcha" data-sitekey="6LfrtBETAAAAAPfSbhbYdzkbOVEh47MiwARPoo6-"></div>
+                      </div>
+                    </div>
+
                     <div class="row">
                       <button type="submit" class="cta-btn">Enter</button>
                     </div>
-                    
+
                   </form>
               </div>
             </div>
