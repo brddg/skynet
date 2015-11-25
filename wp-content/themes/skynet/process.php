@@ -2,6 +2,7 @@
 
 $url = getenv('KICKSERV_URL');
 $token = getenv('KICKSERV_TOKEN');
+$recaptcha_secret = getenv('RECAPTCHA_SECRET');
 
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -10,8 +11,27 @@ $zip = $_POST['zip'];
 $burglar = array_key_exists('burglar-alarms', $_POST) == 1 ? 'true' : 'false';
 $video = array_key_exists('video-surveillance', $_POST) == 1 ? 'true' : 'false';
 $access = array_key_exists('access-control', $_POST) == 1 ? 'true' : 'false';
+$datacomm = array_key_exists('data-comm', $_POST) == 1 ? 'true' : 'false';
 $message = $_POST['message'];
 
+$recaptcha_response = $_POST['g-recaptcha-response'];
+
+// Error out of client side validation failed
+if (empty($name) || empty($email) || empty($phone) || empty($zip) || empty($recaptcha_response)){
+  exit("Error");
+}
+
+// Recaptcha validate
+$recaptcha_url = "https://www.google.com/recaptcha/api/siteverify?secret=".$recaptcha_secret;
+$recaptcha_url += "&response=".$recaptcha_response;
+$recaptcha_url += "&remoteip=".$_SERVER['REMOTE_ADDR'];
+$recaptcha_validation = file_get_contents($recaptcha_url);
+
+if($recaptcha_validation.success == false) {
+  exit("Recaptcha not valid");
+}
+
+// POST to kickserv
 $data = "
 <customer>
   <name>$name</name>
@@ -46,11 +66,12 @@ Zip Code: $zip\n
 Burglar Alarm: $burglar\n
 Video Surveillance: $video\n
 Access Control: $access\n
+Data Communications: $datacomm\n
 Message:\n\n
 $message
 ";
 
-mail(getenv('CONTACT_ALERT'), 'Alert from Web', $email_content);
+mail(getenv('CONTACT_ALERT'), 'Lead from SkynetIntegrations.com', $email_content);
 
 header("Location: /?thanks=true");
 ?>
